@@ -1,45 +1,151 @@
 body{
+    background-color:rgb(238, 205, 162);
+    color:rgb(26, 53, 38);
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+section{
+    width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 50px;
+    gap: 40px;
+}
+
+.top{
+    margin-top: 40px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+#input{
+    width: 60%;
+    height: 40px;
+    font-size: 18px;
+    padding-left: 20px;
+    border-radius: 20px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
+}
+
+#btn1{
+    width: 60px;
+    height: 60px;
+    border: 1px solid black;
+    font-size: 30px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
 }
 
 table {
-    font-family: arial, sans-serif;
     border-collapse: collapse;
     width: 100%;
 }
 
 td, th, tr {
-    border: 1px solid #dddddd;
+    border: 1px solid rgb(77, 2, 2);
     text-align: left;
-    padding: 8px;
+    padding: 10px;
 }
 
-tr:nth-child(even) {
-    background-color: #6b1d1d;
+#th{
+    text-align: center;
 }
 
-
-.info{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+th:nth-child(even){
+    color:rgb(73, 23, 73);
 }
+
+td:nth-child(even){
+    color:rgb(73, 23, 73);
+}
+
+a{
+    color: rgb(73, 23, 73);
+    text-decoration: none;
+}
+
+h1{
+    color: rgb(77, 2, 2);
+    margin-top: 50px;
+    font-size: 30px;
+}
+
+h2{
+    color: rgb(73, 23, 73);
+}
+
 
 .inform{
     display: flex;
     flex-direction: column;
 }
 
-a{
-    color: black;
-    text-decoration: none;
+.mehsul{
+    width: 75%;
+    padding: 30px;
+    border: 1px solid rgb(25, 53, 37);
 }
 
-#btn{
+#btn2{
+    width: 100%;
+    height: 30px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
+    border-radius: 15px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+#btn3{
+    width: 200px;
+    height: 45px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#btn4{
     width: 200px;
     height: 40px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#inp{
+    width: 70%;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
+    padding-left: 20px;
+}
+
+#btn5{
+    width: 90%;
+    height: 30px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+#inp2{
+    width: 90%;
+    height: 30px;
+    border-radius: 15px;
+    font-size: 14px;
+    border: 1px solid rgb(253, 244, 234);
+    background-color: rgb(253, 244, 234);
+    padding-left: 20px;
 }

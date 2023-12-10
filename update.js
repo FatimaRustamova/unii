@@ -5,14 +5,12 @@ let table2 = document.querySelector("#table2");
 fetch(`https://northwind.vercel.app/api/products/${id}`)
 .then(res => res.json())
 .then(element => {
-
-    console.log(element);
     table2.innerHTML += `
         <tr>
-            <td><input type="text"  value="${element.id}"></td>
-            <td><input type="text" id='name' value="${element.name}"></td>
-            <td><input type="text" id='price' value="${element.unitPrice}"></td>
-            <td><input type="text" id='stock' value="${element.unitsInStock}"></td>
+            <td><input id="inp" type="text"  value="${element.id}"></td>
+            <td><input id="inp" type="text" id='name' value="${element.name}"></td>
+            <td><input id="inp" type="text" id='price' value="${element.unitPrice}"></td>
+            <td><input id="inp" type="text" id='stock' value="${element.unitsInStock}"></td>
           </tr>
         ` 
 
@@ -20,8 +18,6 @@ fetch(`https://northwind.vercel.app/api/products/${id}`)
         let nameInp = document.querySelector('#name');
         let priceInp = document.querySelector('#price');
         let stockInp = document.querySelector('#stock');
-        
-        
 
         btn3.addEventListener('click', ()=>{
 
